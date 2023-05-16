@@ -21,8 +21,8 @@ import java.util.concurrent.ExecutionException;
 public class SMSUtils {
     public static void sendMessage(String phone){
     StaticCredentialProvider provider = StaticCredentialProvider.create(Credential.builder()
-            .accessKeyId("LTAI5tSaVgSqouHAZAdmxuyM")
-            .accessKeySecret("5W5lRTwJLTWTQymiQbjB4BEH2Kk8w4")
+            .accessKeyId("/////")
+            .accessKeySecret("/////")
             //.securityToken("<your-token>") // use STS token
             .build());
 
